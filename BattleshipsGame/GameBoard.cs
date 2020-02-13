@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace BattleshipsGame
 {
-    class GameBoard
+    public abstract class GameBoard
     {
         //Member Variables(HAS A)
-        int[,] gamboard;
+
         //Constructor(IS A)
         public GameBoard()
         {
 
         }
+
         //Methods(CAN DO)
 
     }

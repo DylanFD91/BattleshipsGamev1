@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace BattleshipsGame
 {
-    class HitandMissBoard
+    class HitandMissBoard : GameBoard
     {
         //Member Variables(HAS A)
-        public bool hit = false;
-        public bool miss = false;
 
         //Constructor(IS A)
+        public HitandMissBoard()
+        {
+
+        }
 
         //Methods(CAN DO)
+
     }
 }

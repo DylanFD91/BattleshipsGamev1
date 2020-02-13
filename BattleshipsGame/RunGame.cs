@@ -20,6 +20,20 @@ namespace BattleshipsGame
         }
 
         //Methods(CAN DO)
+
+
+        //Game Setup(beginning of the game)
+        private void BeginGame()
+        {
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("|Welcome to my version of the traditional Battleships Game!|");
+            Console.WriteLine("------------------------------------------------------------");
+            DisplayRules();
+            Console.ReadLine();
+            DisplayShips();
+            Console.ReadLine();
+            HowManyPlayers();
+        }
         private void DisplayRules()
         {
             Console.WriteLine("What is Battleships? Well, Battleships is a game where 2 players duke it out with 2 game boards \n" +
@@ -85,20 +99,53 @@ namespace BattleshipsGame
             }
             Console.Clear();
         }
-        private void BeginGame()
+
+
+        //Mid Game(actually playing the game)
+        private void MidGame()
         {
-            Console.WriteLine("------------------------------------------------------------");
-            Console.WriteLine("|Welcome to my version of the traditional Battleships Game!|");
-            Console.WriteLine("------------------------------------------------------------");
-            DisplayRules();
-            Console.ReadLine();
-            DisplayShips();
-            Console.ReadLine();
-            HowManyPlayers();
+
+        }
+        private void PlaceShips()
+        {
+
+        }
+        private void TurnSwitch()
+        {
+
+        }
+
+        private void Shotchoice()
+        {
+
+        }
+            private void CompareOpponentBoardToChoice()
+            {
+
+            }
+            private void ConfirmAndMarkBoard()
+            {
+
+            }
+        private void ShipSunkChecker()
+        {
+
+        }
+            private void ShipSunk()
+            {
+
+            }
+
+
+
+        //End Game(compares player boards and ship list and declares a winner)
+        private void EndGame()
+        {
+
         }
 
 
-        
+        //Runs Game
         public void PlayGame()
         {
             BeginGame();
