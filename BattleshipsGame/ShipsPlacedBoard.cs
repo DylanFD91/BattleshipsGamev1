@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BattleshipsGame
 {
-    class Program
+    class ShipsPlacedBoard
     {
-        static void Main(string[] args)
-        {
-            RunGame newGame = new RunGame();
-            newGame.PlayGame();
-        }
+        //Member Variables(HAS A)
+
+        //Constructor(IS A)
+
+        //Methods(CAN DO)
     }
 }
