@@ -15,10 +15,10 @@ namespace BattleshipsGame
         //Constructor(IS A)
         public Ship()
         {
-            name = "";
-            size = 0;
+
         }
 
         //Methods(CAN DO)
+
     }
 }

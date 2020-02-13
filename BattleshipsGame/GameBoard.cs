@@ -9,9 +9,13 @@ namespace BattleshipsGame
     class GameBoard
     {
         //Member Variables(HAS A)
-
+        int[,] gamboard;
         //Constructor(IS A)
+        public GameBoard()
+        {
 
+        }
         //Methods(CAN DO)
+
     }
 }

@@ -23,9 +23,11 @@ namespace BattleshipsGame
             Console.WriteLine("Please enter your name Admiral: ");
             Console.WriteLine("----------------------------------\n");
             string input = Console.ReadLine();
-            this.name = input;
+            name = input;
         }
+        public override void CallOutShotLocation()
+        {
 
-
+        }
     }
 }

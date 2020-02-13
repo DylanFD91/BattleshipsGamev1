@@ -48,9 +48,8 @@
     <Compile Include="Battleship.cs" />
     <Compile Include="Destroyer.cs" />
     <Compile Include="GameBoard.cs" />
-    <Compile Include="HitBoard.cs" />
+    <Compile Include="HitandMissBoard.cs" />
     <Compile Include="Human.cs" />
-    <Compile Include="MissBoard.cs" />
     <Compile Include="PatrolBoat.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />

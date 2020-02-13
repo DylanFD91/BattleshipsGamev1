@@ -19,11 +19,15 @@ namespace BattleshipsGame
         //Methods(CAN DO)
         public override void EnterName()
         {
-            Console.WriteLine("\n----------------------------------");
+            Console.WriteLine("\n--------------------------------");
             Console.WriteLine("Please enter your name Admiral: ");
-            Console.WriteLine("----------------------------------\n");
+            Console.WriteLine("--------------------------------\n");
             string input = Console.ReadLine();
-            this.name = input;
+            name = input;
+        }
+        public override void CallOutShotLocation()
+        {
+
         }
 
     }

@@ -19,5 +19,6 @@ namespace BattleshipsGame
 
         //Methods(CAN DO)
         public abstract void EnterName();
+        public abstract void CallOutShotLocation();
     }
 }

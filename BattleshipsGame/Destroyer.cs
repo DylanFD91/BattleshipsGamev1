@@ -13,8 +13,8 @@ namespace BattleshipsGame
         //Constructor(IS A)
         public Destroyer()
         {
-            this.name = "Destroyer";
-            this.size = 3;
+            name = "Destroyer";
+            size = 3;
         }
 
         //Methods(CAN DO)
